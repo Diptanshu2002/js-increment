@@ -9,7 +9,11 @@ body {
   font-family: sans-serif;
 }
 .main {
-  background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(
+    to right,
+    rgb(245, 240, 240),
+    rgb(245, 245, 231)
+  );
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -27,4 +31,14 @@ button {
   font-size: 1rem;
   padding: 0.5em;
   border: 1px solid red;
+}
+.main div:nth-child(3) {
+  color: rgb(55, 34, 173);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.savePreviousData {
+  font-size: 1.5rem;
+  width: 100px;
 }

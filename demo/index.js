@@ -6,6 +6,7 @@ function increment() {
 }
 function saveFunc() {
   let saveEl = document.getElementById("savePreviousData");
-  saveEl.innerText = `${count} - `;
+  saveEl.innerText += `${count} - `;
   console.log(saveEl);
 }
+// dfdsfsdfsdfsd
